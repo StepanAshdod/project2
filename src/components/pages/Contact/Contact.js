@@ -1,10 +1,31 @@
 import React from "react";
-
+import style from './Contact.css';
 
 export const Contact = () => {
-    return (
-        <main>
-            Contact
-        </main>
-    )
+    return <React.Fragment>
+    <div className={style.contact}>
+        <div className={style.contact__header}>
+            <div className={style.contact__header_strip}>
+                <div/>
+            </div>
+            <span className={style.contact__header_title}>Contact</span>
+        </div>
+        <div className={style.contact__body}>
+                <span className={style.contact__title}>
+                    Get In Touch
+                </span>
+            <span className={style.contact__subtitle}>
+                    We'd love to hear your thoughts and be in touch with us
+                </span>
+            <textarea className={style.contact__message}  name="" placeholder="Message"/>
+            <div className={style.contact__data}>
+                <div className={style.contact__data_input}>
+                    <input required className={style.input__email} type="email" name="email" placeholder="Email Address" />
+                    <input required className={style.input__name} type="text" name="name" placeholder="Full Name" />
+                </div>
+                <button className={style.contact__data_button} type="submit">Send</button>
+            </div>
+        </div>
+    </div>
+</React.Fragment>
 }
