@@ -4,7 +4,7 @@
     padding-top: 6rem;
   }
   
-  .contact__header{
+  .contact_header{
     display: flex;
     align-items: center;
     text-align: left;
@@ -14,36 +14,36 @@
     height: 6vh;
   }
   
-  .contact__header_strip div{
+  .contact_header_strip div{
     width: 0.2rem;
     height: 2.5rem;
     background-color: rgb(64, 224, 208);
   }
   
-  .contact__header_title{
+  .contact_header_title{
     font-size: 2.33rem;
     font-weight: 300;
     line-height: 4.66rem;
     margin-left: 0.26rem;
   }
   
-  .contact__body{
+  .contact_body{
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .contact__title{
+  .contact_title{
     margin-top: 2.66rem;
     font-size: 2.33rem;
     font-weight: 400;
   }
   
-  .contact__subtitle{
+  .contact_subtitle{
     opacity: 0.8;
     font-size: 1.2rem;
   }
   
-  .contact__message{
+  .contact_message{
     width: 46.66rem;
     height: 10.66rem;
     box-shadow: 0 0 4px #808080;
@@ -67,7 +67,7 @@
     opacity: 0.5;
   }
   
-  .contact__data{
+  .contact_data{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -75,12 +75,12 @@
     margin-top: 2rem;
   }
   
-  .contact__data_input{
+  .contact_data_input{
     display: flex;
     width: inherit;
   }
   
-  .input__email, .input__name{
+  .contact_input_email, .contact_input_name{
     box-shadow: 0 0 4px #808080;
     border: 2px solid #ffffff;
     border-radius: 2rem;
@@ -92,20 +92,20 @@
     cursor: pointer;
     transition: all .2s linear;
   }
-  .input__email{
+  .contact_input_email{
     width: 55%;
   }
-  .input__name{
+  .contact_input_name{
     width: 40%;
   }
   
-  .input__email:hover, .input__email:focus,
-  .input__name:hover, .input__name:focus,
+  .contact_input_email:hover, .contact_input_email:focus,
+  .contact_input_name:hover, .contact_input_name:focus,
        textarea:hover, textarea:focus{
     border: 2px solid rgb(64, 224, 208);
   }
   
-  .contact__data_button {
+  .contact_data_button {
     box-shadow: 0 0 4px #808080;
     width: 18%;
     background-color: #ffffff;
@@ -119,7 +119,7 @@
     text-align: center;
   }
   
-  .contact__data_button:hover, .contact__data_button.active {
+  .contact_data_button:hover, .contact_data_button.active {
     background-color: #40e0d0;
     border-color: #40e0d0;
     color: #ffffff;

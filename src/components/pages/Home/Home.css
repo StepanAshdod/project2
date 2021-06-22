@@ -1,4 +1,4 @@
-.container{
+.home_container{
     margin: 0 auto;
     width: 100%;
     max-width: 1200px;
@@ -12,7 +12,7 @@
     z-index: 0;
 }
 
-.home__title{
+.home_title1{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,13 +20,13 @@
     line-height: 85px;
 }
 
-.title{
+.home_title2{
     font-size: 5rem;
     font-weight: 700;
     color: #ff3399;
 }
 
-.subtitle{
+.home_subtitle{
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
     font-style: italic;

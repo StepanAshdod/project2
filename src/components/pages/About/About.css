@@ -4,7 +4,7 @@
     padding-top: 6rem;
 }
 
-.about__header{
+.about_header{
     display: flex;
     align-items: center;
     text-align: left;
@@ -14,31 +14,31 @@
     height: 6vh;
 }
 
-.about__header_strip div{
+.about_header_strip div{
     width: 0.2rem;
     height: 2.5rem;
     background-color: rgb(64, 224, 208);
 }
 
-.about__header_title{
+.about_header_title{
     font-size: 2.33rem;
     font-weight: 300;
     line-height: 4.66rem;
     margin-left: 0.26rem;
 }
 
-.about__body{
+.about_body{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.about__title{
+.about_title{
     margin-top: 2.66rem;
     font-size: 2.33rem;
     font-weight: 400;
 }
 
-.about__subtitle{
+.about_subtitle{
     opacity: 0.8;
     font-size: 1.2rem;
 }

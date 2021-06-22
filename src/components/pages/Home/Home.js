@@ -3,11 +3,11 @@ import style from "./Home.css";
 
 export const Home = () => {
     return <React.Fragment>
-        <div className={style.home}>
-            <div className={style.container}>
-                <div className={style.home__title}>
-                    <span className={style.title}>hiMath Gaming</span>
-                    <span className={style.subtitle}>Revolutionize Learning</span>
+        <div className={'home'}>
+            <div className={'home_container'}>
+                <div className={'home_title1'}>
+                    <span className={'home_title2'}>hiMath Gaming</span>
+                    <span className={'home_subtitle'}>Revolutionize Learning</span>
                 </div>
             </div>
         </div>

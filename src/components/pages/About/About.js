@@ -1,21 +1,20 @@
 import React from "react";
 import style from "./About.css";
 
-
 export const About = () => {
     return <React.Fragment>
-        <div className={style.about}>
-            <div className={style.about__header}>
-                <div className={style.about__header_strip}>
+        <div className={'about'}>
+            <div className={'about_header'}>
+                <div className={'about_header_strip'}>
                     <div/>
                 </div>
-                <span className={style.about__header_title}>About</span>
+                <span className={'about_header_title'}>About</span>
             </div>
-            <div className={style.about__body}>
-                <span className={style.about__title}>
+            <div className={'about_body'}>
+                <span className={'about_title'}>
                     About hiMath Gaming Mission
                 </span>
-                <span className={style.about__subtitle}>
+                <span className={'about_subtitle'}>
                     Your best teacher is YOU!
                 </span>
             </div>

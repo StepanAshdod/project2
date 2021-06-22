@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import "./App.css";
 import { PaperBase } from "./components/navigation/PaperBase";
 import {TEAM} from "./service/apiConst";
 import { Route, Switch } from "react-router";

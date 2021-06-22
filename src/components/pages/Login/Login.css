@@ -4,7 +4,7 @@
   padding-top: 6rem;
 }
 
-.login__header{
+.login_header{
   display: flex;
   align-items: center;
   text-align: left;
@@ -14,74 +14,74 @@
   height: 6vh;
 }
 
-.login__header_strip div{
+.login_header_strip div{
   width: 0.2rem;
   height: 2.5rem;
   background-color: rgb(64, 224, 208);
 }
 
-.login__header_title{
+.login_header_title{
   font-size: 2.33rem;
   font-weight: 300;
   line-height: 4.66rem;
   margin-left: 0.26rem;
 }
 
-.login__body{
+.login_body{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.login__title{
+.login_title{
   margin-top: 2.66rem;
   font-size: 2.33rem;
   font-weight: 400;
 }
 
-.login__wrapper{
+.login_wrapper{
   width: 100%;
   margin-top: 4rem;
 }
 
-.login__row{
+.login_row{
   display: flex;
 }
 
-.login__left, .login__right{
+.login_left, .login_right{
   display: flex;
   flex-direction: column;
   width: 50%;
   align-items: center;
 }
 
-.login__inner {
+.login_inner {
   display: flex;
   align-items: center;
 }
 
-.login__item{
+.login_item{
   display: flex;
   flex-direction: column;
   position: relative;
 }
 
-.login__item_title{
+.login_item_title{
   padding-left: 15px;
   padding-bottom: 3px;
 }
 
-.login__item_title a{
+.login_item_title a{
   color: #808080;
   text-decoration: none;
   transition: color .2s linear;
 }
 
-.login__item_title a:hover{
+.login_item_title a:hover{
   color: #ff3399;
 }
 
-.login__item_input, .login__item_button, .login__social_button{
+.login_item_input, .login_item_button, .login_social_button{
   width: 26rem;
   height: 2.66rem;
   background-color: #ffffff;
@@ -94,23 +94,23 @@
   transition: all .2s linear;
 }
 
-.login__item_input:hover, .login__item_input:focus{
+.login_item_input:hover, .login_item_input:focus{
   border: 2px solid rgb(64, 224, 208);
 }
 
-.login__item_button{
+.login_item_button{
   background-color: #ffffff;
   margin-top: 2.33rem;
   padding-left: 0;
 }
 
-.login__item_input_icon {
+.login_item_input_icon {
   position: absolute;
   left: 1rem;
   bottom: 2.13rem;
 }
 
-.login__item a{
+.login_item a{
   position: absolute;
   color: cornflowerblue;
   padding-left: 1rem;
@@ -118,23 +118,23 @@
   text-decoration: none;
 }
 
-.login__item a:hover{
+.login_item a:hover{
   color: #ff3399;
 }
 
-.login__item_button{
+.login_item_button{
   font-size: 1rem;
   font-weight: 600;
   border: none;
   transition: all .2s linear;
 }
 
-.login__item_button:hover{
+.login_item_button:hover{
   background-color: rgb(64, 224, 208);
   color: #ffffff;
 }
 
-.login__social_button{
+.login_social_button{
   border: none;
   text-align: left;
   margin-bottom: 1.66rem;
@@ -142,47 +142,47 @@
   transition: all .2s linear;
 }
 
-.login__social_button:last-child{
+.login_social_button:last-child{
   margin-bottom: 0px;
 }
 
-.login__social_button:hover{
+.login_social_button:hover{
   background-color: rgb(64, 224, 208);
 }
 
-.login__social_icon{
+.login_social_icon{
   width: 25%;
   font-size: 2rem;
   color: #808080;
   transition: all .2s linear;
 }
 
-.login__social_title{
+.login_social_title{
   font-weight: 600;
   transition: color .2s linear;
 }
 
-.login__social_button:hover .login__social_icon, .login__social_button:hover .login__social_title{
+.login_social_button:hover .login_social_icon, .login_social_button:hover .login_social_title{
   color: #ffffff;
 }
 
-.login__social_option{
+.login_social_option{
   display: flex;
   flex-direction: column;
   width: 85%;
   align-items: center;
 }
 
-.login__social_option span a, .login__social_option a{
+.login_social_option span a, .login_social_option a{
   text-decoration: none;
   color: cornflowerblue;
   transition: color .2s linear;
 }
 
-.login__social_option span a:hover, .login__social_option a:hover{
+.login_social_option span a:hover, .login_social_option a:hover{
   color: #ff3399;
 }
 
-.login__social_option span{
+.login_social_option span{
   margin-bottom: 0.66rem;
 }

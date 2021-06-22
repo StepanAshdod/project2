@@ -4,7 +4,7 @@
    padding-top: 6rem;
 }
 
-.team__header{
+.team_header{
    display: flex;
    align-items: center;
    text-align: left;
@@ -14,35 +14,35 @@
    height: 6vh;
 }
 
-.team__header_strip div{
+.team_header_strip div{
    width: 0.2rem;
    height: 2.5rem;
    background-color: rgb(64, 224, 208)     
 }
 
-.team__header_title{
+.team_header_title{
    font-size: 2.33rem;
    font-weight: 300;
    line-height: 4.66rem;
    margin-left: 0.26rem;
 }
 
-.team__body{
+.team_body{
    margin: 15px 0;
 }
 
-.team__items{
+.team_items{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 2.66rem -1rem 0 -1rem;
 }
-.team__item{
+.team_item{
   width: 17rem;
   margin: 1rem 1rem;
 }
 
-.team__item_wrapper{
+.team_item_wrapper{
   overflow: hidden;
   position: relative;
   height: 30rem;
@@ -51,7 +51,7 @@
   background-color: #ffffff;
 }
 
-.team__background{
+.team_background{
   display: flex;
   flex-direction: column;
   position: sticky;
@@ -59,7 +59,7 @@
 }
 
 
-.background__oval_1{
+.background_oval_1{
   position: absolute;
   border-radius: 50%;
   width: 23.33rem;
@@ -69,7 +69,7 @@
   right: -3.33rem;
 }
 
-.background__oval_2{
+.background_oval_2{
   position: absolute;
   border-radius: 50%;
   width: 23.33rem;
@@ -79,7 +79,7 @@
   background-color: #40e0d0;
 }
 
-.background__oval_2_1{
+.background_oval_2_1{
   position: absolute;
   border-radius: 50%;
   width: 23.33rem;
@@ -90,7 +90,7 @@
   opacity: 0.5;
 }
 
-.background__oval_3{
+.background_oval_3{
   position: absolute;
   border-radius: 50%;
   width: 23.33rem;
@@ -101,7 +101,7 @@
   border: 1px solid #66ffff;
 }
 
-.background__oval_3_1{
+.background_oval_3_1{
   position: absolute;
   border-radius: 50%;
   width: 23.33rem;
@@ -112,7 +112,7 @@
   border: 1px solid #66ffff;
 }
 
-.background__oval_3_2{
+.background_oval_3_2{
   position: absolute;
   border-radius: 50%;
   width: 23.33rem;
@@ -123,7 +123,7 @@
   border: 1px solid #66ffff;
 }
 
-.background__oval_3_3{
+.background_oval_3_3{
   position: absolute;
   border-radius: 50%;
   width: 23.33rem;
@@ -134,7 +134,7 @@
   border: 1px solid #66ffff;
 }
 
-.background__oval_3_4{
+.background_oval_3_4{
   position: absolute;
   border-radius: 50%;
   width: 23.33rem;
@@ -145,7 +145,7 @@
   border: 1px solid #66ffff;
 }
 
-.background__oval_3_5{
+.background_oval_3_5{
   position: absolute;
   border-radius: 50%;
   width: 23.33rem;
@@ -156,7 +156,7 @@
   border: 1px solid #66ffff;
 }
 
-.background__oval_3_6{
+.background_oval_3_6{
   position: absolute;
   border-radius: 50%;
   width: 23.33rem;
@@ -167,7 +167,7 @@
   border: 1px solid #66ffff;
 }
 
-.background__oval_3_7{
+.background_oval_3_7{
   position: absolute;
   border-radius: 50%;
   width: 23.33rem;
@@ -178,7 +178,7 @@
   border: 1px solid #66ffff;
 }
 
-.background__oval_3_8{
+.background_oval_3_8{
   position: absolute;
   border-radius: 50%;
   width: 23.33rem;
@@ -189,7 +189,7 @@
   border: 1px solid #66ffff;
 }
 
-.background__oval_3_9{
+.background_oval_3_9{
   position: absolute;
   border-radius: 50%;
   width: 23.33rem;
@@ -200,7 +200,7 @@
   border: 1px solid #66ffff;
 }
 
-.background__oval_3_10{
+.background_oval_3_10{
   position: absolute;
   border-radius: 50%;
   width: 23.33rem;
@@ -211,7 +211,7 @@
   border: 1px solid #66ffff;
 }
 
-.background__oval_3_11{
+.background_oval_3_11{
   position: absolute;
   border-radius: 50%;
   width: 23.33rem;
@@ -222,7 +222,7 @@
   border: 1px solid #66ffff;
 }
 
-.background__oval_3_12{
+.background_oval_3_12{
   position: absolute;
   border-radius: 50%;
   width: 23.33rem;
@@ -233,7 +233,7 @@
   border: 1px solid #66ffff;
 }
 
-.team__photo_wrapper{
+.team_photo_wrapper{
   position: absolute;
   border-radius: 50%;
   background-color: white;
@@ -242,7 +242,7 @@
   left: 3.33rem;
   bottom: 47%;
 }
-.team__photo{
+.team_photo{
   position: absolute;
   overflow: hidden;
   border-radius: 50%;
@@ -254,12 +254,12 @@
   background-color: white;
 }
 
-.team__photo img{
+.team_photo img{
   position: absolute;
   width: 9.6rem;
   right: 2px;
 }
-.team__info{
+.team_info{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -268,19 +268,19 @@
   border-bottom: 1px solid #808080;
 }
 
-.team__info_title{
+.team_info_title{
   font-size: 1.2rem;
   font-weight: 600;
 }
 
-.team__info_subtitle{
+.team_info_subtitle{
   text-transform: uppercase;
   padding-bottom: 5px;
   font-weight: 200;
   color: #808080;
 }
 
-.team__info_description{
+.team_info_description{
   overflow-y: auto;
   margin: 0.66rem 1.8rem;
   height: 8.66rem;

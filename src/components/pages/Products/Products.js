@@ -10,18 +10,18 @@ export const Products = () => {
     ];
 
     const itemProduct = products.map(product => {
-        return <div key={product.id} className={style.product__item}>
-            <div className={style.product__item_wrapper}>
-                <img className={style.product__photo} src=""  alt="" />
-                <div className={style.product__content}>
-                    <div className={style.product__info}>
+        return <div key={product.id} className={'products_item'}>
+            <div className={'products_item_wrapper'}>
+                <img className={'products_photo'} src=""  alt="" />
+                <div className={'products_content'}>
+                    <div className={'products_info'}>
                         <div>
-                            <span className={style.product__info_title}>{product.product}</span>
+                            <span className={'products_info_title'}>{product.product}</span>
                         </div>
-                        <span className={style.product__info_subtitle}>Introduction to integration operation...</span>
+                        <span className={'products_info_subtitle'}>Introduction to integration operation...</span>
                     </div>
-                    <div className={style.product__buttons}>
-                        <button className={style.product__buttons_item} type="button">Purchase</button>
+                    <div className={'products_buttons'}>
+                        <button className={'products_buttons_item'} type="button">Purchase</button>
                     </div>
                 </div>
             </div>
@@ -29,21 +29,21 @@ export const Products = () => {
     });
     
     return <React.Fragment>
-        <div className={style.products}>
-            <div className={style.products__header}>
-                <div className={style.products__header_strip}>
+        <div className={'products'}>
+            <div className={'products_header'}>
+                <div className={'products_header_strip'}>
                     <div/>
                 </div>
-                <span className={style.products__header_title}>Products</span>
+                <span className={'products_header_title'}>Products</span>
             </div>
-            <div className={style.products__body}>
-                <div className={style.products__menu}>
-                    <button className={style.products__menu_link} value="all" type="submit">All</button>
-                    <button className={style.products__menu_link} value="math" type="submit">Math</button>
-                    <button className={style.products__menu_link} value="programming" type="submit">Programming</button>
-                    <button className={style.products__menu_link} value="physics" type="submit">Physics</button>
+            <div className={'products_body'}>
+                <div className={'products_menu'}>
+                    <button className={'products_menu_link'} value="all" type="submit">All</button>
+                    <button className={'products_menu_link'} value="math" type="submit">Math</button>
+                    <button className={'products_menu_link'} value="programming" type="submit">Programming</button>
+                    <button className={'products_menu_link'} value="physics" type="submit">Physics</button>
                 </div>
-                <div className={style.product__items}>
+                <div className={'products_items'}>
                     {itemProduct}
                 </div>
             </div>

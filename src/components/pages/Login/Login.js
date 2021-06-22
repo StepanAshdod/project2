@@ -4,57 +4,57 @@ import style from "./Login.css";
 export const Login = () => {
 
     return <React.Fragment>
-        <div className={style.login}>
-            <div className={style.login__header}>
-                <div className={style.login__header_strip}>
+        <div className={'login'}>
+            <div className={'login_header'}>
+                <div className={'login_header_strip'}>
                     <div />
                 </div>
-                <span className={style.login__header_title}>Login</span>
+                <span className={'login_header_title'}>Login</span>
             </div>
-            <div className={style.login__body}>
-                <span className={style.login__title}>
+            <div className={'login_body'}>
+                <span className={'login_title'}>
                     Welcome back
                     </span>
-                <div className={style.login__wrapper}>
+                <div className={'login_wrapper'}>
         
-                        <div className={style.login__row}>
-                            <div className={style.login__left}>
-                                <div className={style.login__item}>
-                                    <label className={style.login__item_title}>Email</label>
-                                    <input required className={style.login__item_input} type="email" name="email" placeholder="name@email.com"  />
+                        <div className={'login_row'}>
+                            <div className={'login_left'}>
+                                <div className={'login_item'}>
+                                    <label className={'login_item_title'}>Email</label>
+                                    <input required className={'login_item_input'} type="email" name="email" placeholder="name@email.com"  />
                                    
                                 </div>
-                                <div className={style.login__item}>
-                                    <label className={style.login__item_title}>Password</label>
-                                    <input required className={style.login__item_input} type="password" name="password" placeholder="Enter your password..." />
+                                <div className={'login_item'}>
+                                    <label className={'login_item_title'}>Password</label>
+                                    <input required className={'login_item_input'} type="password" name="password" placeholder="Enter your password..." />
                                     
                                     <a href=" ">Forgot password?</a>
                                 </div>
-                                <div className={style.login__item}>
-                                    <button className={style.login__item_button} type="submit" value="Login">Login</button>
+                                <div className={'login_item'}>
+                                    <button className={'login_item_button'} type="submit" value="Login">Login</button>
                                 </div>
                             </div>
 
-                            <div className={style.login__inner}>
-                                <div className={style.login__inner_title}>
+                            <div className={'login_inner'}>
+                                <div className={'login_inner_title'}>
                                     <span >or</span>
                                 </div>
                             </div>
 
-                            <div className={style.login__right}>
-                                <button className={style.login__social_button} >
+                            <div className={'login_right'}>
+                                <button className={'login_social_button'} >
                                     
-                                    <span className={style.login__social_title}>Continue with Facebook</span>
+                                    <span className={'login_social_title'}>Continue with Facebook</span>
                                 </button>
-                                <button className={style.login__social_button} >
+                                <button className={'login_social_button'} >
                                     
-                                    <span className={style.login__social_title}>Continue with Apple</span>
+                                    <span className={'login_social_title'}>Continue with Apple</span>
                                 </button>
-                                <button className={style.login__social_button} >
+                                <button className={'login_social_button'} >
                                     
-                                    <span className={style.login__social_title}>Continue with Google</span>
+                                    <span className={'login_social_title'}>Continue with Google</span>
                                 </button>
-                                <div className={style.login__social_option}>
+                                <div className={'login_social_option'}>
                                     <span>New to hiMath Gaming?
                             
                                     </span>
