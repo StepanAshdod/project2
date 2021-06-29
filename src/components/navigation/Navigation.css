@@ -1,0 +1,30 @@
+.nav {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.nav_link:hover::after, .nav_link.active::after {
+    width: 100%;
+  }
+    .nav_link_btn {
+    height: 100%;
+    margin: 5px;  
+    min-width: 6.66rem;
+    border: 1px solid #808080;
+    padding: 0.53rem 1rem;
+    transition: all .2s linear;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .nav_link_btn:hover, .nav_link_btn.active {
+    background-color: #40e0d0;
+    box-shadow: 0 0 4px #808080;
+    border-color: #40e0d0;
+    color: #ffffff;
+  }

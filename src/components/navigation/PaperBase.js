@@ -10,4 +10,3 @@ export const PaperBase=()=>{
         </main>
     )
 }
-export default PaperBase

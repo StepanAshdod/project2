@@ -6,10 +6,14 @@
 }
 
 .home{
+    background-image: url(../../../images/second_bg.jpg);
+    background-position: center center;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     padding-top: 6rem;
-    z-index: 0;
+    margin-top: 25px;
+    height: 820px;
 }
 
 .home_title1{
@@ -23,7 +27,7 @@
 .home_title2{
     font-size: 5rem;
     font-weight: 700;
-    color: #ff3399;
+    color: white;
 }
 
 .home_subtitle{
@@ -31,5 +35,6 @@
     font-size: 3rem;
     font-style: italic;
     font-weight: 400;
-    margin-top: -15px;
+    margin-top: -5px;
+    color: white;
 }

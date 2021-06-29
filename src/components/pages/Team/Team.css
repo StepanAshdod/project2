@@ -1,4 +1,9 @@
 .team{
+  background-color:lightblue ;
+  background-position: center center;
+  background-size: cover;
+  margin-top: 25px;
+  height: 820px;
    display: flex;
    flex-direction: column;
    padding-top: 6rem;
@@ -15,7 +20,7 @@
 }
 
 .team_header_strip div{
-   width: 0.2rem;
+  width: 6.2rem;
    height: 2.5rem;
    background-color: rgb(64, 224, 208)     
 }

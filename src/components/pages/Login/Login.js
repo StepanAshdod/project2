@@ -36,34 +36,28 @@ export const Login = () => {
                             </div>
 
                             <div className={'login_inner'}>
-                                <div className={'login_inner_title'}>
-                                    <span >or</span>
-                                </div>
+                                
                             </div>
 
                             <div className={'login_right'}>
                                 <button className={'login_social_button'} >
-                                    
                                     <span className={'login_social_title'}>Continue with Facebook</span>
                                 </button>
-                                <button className={'login_social_button'} >
-                                    
+
+                                <button className={'login_social_button'} >                                    
                                     <span className={'login_social_title'}>Continue with Apple</span>
                                 </button>
-                                <button className={'login_social_button'} >
-                                    
+
+                                <button className={'login_social_button'} >                                   
                                     <span className={'login_social_title'}>Continue with Google</span>
                                 </button>
+
                                 <div className={'login_social_option'}>
-                                    <span>New to hiMath Gaming?
-                            
-                                    </span>
+                                    <span>New to hiMath Gaming?</span>
                                     <a href=" ">Log in with your organization</a>
                                 </div>
                             </div>
                         </div>
-                    
-
                 </div>
             </div>
         </div>

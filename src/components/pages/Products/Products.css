@@ -1,10 +1,15 @@
 .products{
+    background-color:lightblue ;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 25px;
+    height: 820px;
     display: flex;
     flex-direction: column;
     padding-top: 6rem;
   }
   
-  .products_pheader{
+  .products_header{
     display: flex;
     align-items: center;
     text-align: left;
@@ -15,7 +20,7 @@
   }
   
   .products_header_strip div{
-    width: 0.2rem;
+    width: 6.2rem;
     height: 2.5rem;
     background-color: rgb(64, 224, 208);
   }
@@ -41,7 +46,6 @@
   
   .products_menu_link {
     margin-left: 0.66rem;
-    position: relative; /* для полоски под link */
     font-size: 1rem;
     font-weight: 400;
     text-decoration: none;
@@ -155,7 +159,7 @@
     color: #808080;
     padding: 0.53rem 1rem;
     transition: all .2s linear;
-    border-radius: 2rem;
+    border-radius: 4rem;
     font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
@@ -168,4 +172,26 @@
     box-shadow: 0 0 4px #808080;
     border-color: #40e0d0;
     color: #ffff;
-  }  
+  }
+  
+  .products_menu_link {
+    min-width: 6.66rem;
+    border: 1px solid #808080;
+    color: #808080;
+    padding: 0.53rem 1rem;
+    transition: all .2s linear;
+    border-radius: 4rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    background: none;
+  }
+
+  .products_menu_link:hover, .products_menu_link.active {
+    background-color: #40e0d0;
+    box-shadow: 0 0 4px #808080;
+    border-color: #40e0d0;
+    color: #ffff;
+  }
+  
