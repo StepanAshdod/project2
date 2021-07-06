@@ -3,11 +3,11 @@
   display: flex;
   justify-content: center;
   margin-top: 20px;
-  margin-left: auto;
+  /* margin-left: auto; */
 }
-.nav a:last-child{
+/* .nav a:last-child{
   margin-left: auto;
-}
+} */
 /* .nav a:first-child{
   margin-left: auto;
 } */
@@ -29,7 +29,6 @@
     text-align: center;
     float: right;
   }
-  
   .nav_link_btn:hover, .nav_link_btn.active {
     background-color: #40e0d0;
     box-shadow: 0 0 4px #808080;
@@ -38,13 +37,13 @@
   }
  .LogoWrapper {
    display: flex;
-   margin-right: 250px;
+   margin-right: 650px;
    min-height: 100px;
+   /* margin-left: 25px; */
  }
- .LogoImg {
-   width: 89px;
-   height: 69px;
-   margin-left: 20px;
+ .LogoWrapper img {
+   width: 130px;
+   height: 65px;
  }
  .LogoText {
    display: block;
