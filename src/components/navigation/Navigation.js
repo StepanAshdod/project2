@@ -5,7 +5,15 @@ import './Navigation.css'
 
 export const Navigation = () => {
     return (
-        <main className="nav">
+        <div className="nav">
+            <div className="LogoWrapper">
+            { <div className="LogoImg" onclick="window.location.href='Home.js'"></div> }
+            <a href="home"><img classname="LogoImg" src="../../images/hiDucation.jpg" alt="logo"/></a>
+            <div className="LogoText">
+                <h2 className="hiMath">hiMath</h2>
+                <h2 className="Gaming">Gaming</h2>
+            </div>
+            </div>
             { navigationLinks.map( ( item ) => (
                 <React.Fragment key={ item.path }>
                     <NavLink to={ item.path }>
@@ -15,6 +23,6 @@ export const Navigation = () => {
                     </NavLink>
                 </React.Fragment>
             ) ) }
-        </main>
+        </div>
     )
 }
