@@ -13,4 +13,4 @@ export const navigationLinks = [
     {path: "/" + CONTACT.toLowerCase(), label: CONTACT}, 
     {path: "/" + LOGIN.toLowerCase(), label: LOGIN} ]
 
-    
+   

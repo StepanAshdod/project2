@@ -13,6 +13,8 @@ export const Products = () => {
         return <div key={product.id} className={'products_item'}>
             <div className={'products_item_wrapper'}>
                 <img className={'products_photo'} src=""  alt="" />
+
+
                 <div className={'products_content'}>
                     <div className={'products_info'}>
                         <div>

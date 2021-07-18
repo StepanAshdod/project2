@@ -5,7 +5,6 @@
     height: 820px;
     padding-top: 6rem;
     margin-top: 25px;
-   
     display: flex;
     flex-direction: column;
     padding-top: 6rem;
@@ -52,3 +51,23 @@
     font-size: 1.2rem;
     color: white;
 }
+
+.EncourageBox{
+    display: flex;
+    margin-top: 10px;
+    justify-content:space-evenly;
+    width: 100%;
+}
+.EncourageBox p{
+    color:rgb(148, 144, 144);
+    display: flex;
+    align-items: center;
+}
+.EncourageBox img{
+    display: flex;
+    /* border: 1px solid rgb(75, 38, 38); */
+    opacity: 0.4;
+}
+/* .EncourageBox img:hover{
+    opacity: 0.2;
+} */

@@ -50,7 +50,7 @@
     font-weight: 400;
     text-decoration: none;
     background: none;
-    color:#808080;
+    color: black;
     transition: all .2s linear;
   }
   
@@ -155,8 +155,7 @@
   
   .products_buttons_item {
     min-width: 6.66rem;
-    border: 1px solid #808080;
-    color: #808080;
+    color: black;
     padding: 0.53rem 1rem;
     transition: all .2s linear;
     border-radius: 4rem;
@@ -176,11 +175,11 @@
   
   .products_menu_link {
     min-width: 6.66rem;
-    border: 1px solid #808080;
-    color: #808080;
     padding: 0.53rem 1rem;
     transition: all .2s linear;
-    border-radius: 4rem;
+    border: none;
+    background-color: white;
+    text-decoration: none;
     font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
@@ -189,9 +188,6 @@
   }
 
   .products_menu_link:hover, .products_menu_link.active {
-    background-color: #40e0d0;
-    box-shadow: 0 0 4px #808080;
-    border-color: #40e0d0;
-    color: #ffff;
+    color: #40e0d0;
   }
   

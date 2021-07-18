@@ -2,7 +2,6 @@ import React from "react";
 import style from "./Home.css";
 import VideoApp from "./VideoApp";
 
-
 export const Home = () => {
     return <React.Fragment>
         <div className={'home'}>
