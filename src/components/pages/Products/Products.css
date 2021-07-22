@@ -20,9 +20,10 @@
   }
   
   .products_header_strip div{
-    width: 6.2rem;
+    /* width: 6.2rem;
     height: 2.5rem;
-    background-color: rgb(64, 224, 208);
+    background-color: rgb(64, 224, 208); */
+    margin-left: 3rem;
   }
   
   .products_header_title{

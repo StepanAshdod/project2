@@ -1,5 +1,6 @@
 import React from "react";
-import style from './Contact.css';
+import './Contact.css';
+import { Link } from "react-router-dom";
 
 export const Contact = () => {
     return <React.Fragment>
@@ -26,6 +27,18 @@ export const Contact = () => {
                 <button className={'contact_data_button'} type="submit">Send</button>
             </div>
         </div>
+        <div className={'contact_footer'}>
+        <ul className={'contact_footer_links'}>
+            <li className={'links'}><Link to="#" style={{ textDecoration: 'none',color:'#808080' }}>Features</Link></li>
+            <li className={'links'}><Link to="#" style={{ textDecoration: 'none',color:'#808080' }}>About</Link></li>
+            <li className={'links'}><Link to="#" style={{ textDecoration: 'none',color:'#808080' }}>Testimonials</Link></li>
+            <li className={'links'}><Link to="#" style={{ textDecoration: 'none',color:'#808080' }}>Contact</Link></li>
+            <li className={'links'}><Link to="#" style={{ textDecoration: 'none',color:'#808080' }}>Download</Link></li>
+          </ul>
+        </div>
+        <div className="links_underline"></div>
+        <h3 className="contact_information">1717 HARRISON St. SAN FRANCISCO,CA 94103,USA</h3>
+        <h3 className="contact_company_name"><span>&#169;</span>YOUR company Name</h3>
     </div>
 </React.Fragment>
 }

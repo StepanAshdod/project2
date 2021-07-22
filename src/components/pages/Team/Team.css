@@ -8,6 +8,7 @@
    flex-direction: column;
    padding-top: 6rem;
 }
+
 .team_header{
    display: flex;
    align-items: center;
@@ -17,20 +18,25 @@
    padding-bottom: 10px;
    height: 6vh;
 }
+
 .team_header_strip div{
-  width: 6.2rem;
+  /* width: 6.2rem;
    height: 2.5rem;
-   background-color: rgb(64, 224, 208)     
+   background-color: rgb(64, 224, 208)      */
+   margin-left: 3rem;
 }
+
 .team_header_title{
    font-size: 2.33rem;
    font-weight: 300;
    line-height: 4.66rem;
    margin-left: 0.26rem;
 }
+
 .team_body{
    margin: 15px 0;
 }
+
 .team_items{
   display: flex;
   flex-wrap: wrap;
@@ -41,6 +47,7 @@
   width: 17rem;
   margin: 1rem 1rem;
 }
+
 .team_item_wrapper{
   overflow: hidden;
   position: relative;
@@ -49,12 +56,15 @@
   border-radius: 0.66rem;
   background-color: #ffffff;
 }
+
 .team_background{
   display: flex;
   flex-direction: column;
   position: sticky;
   align-items: center;
 }
+
+
 .background_oval_1{
   position: absolute;
   border-radius: 50%;
@@ -64,6 +74,7 @@
   bottom: 60%;
   right: -3.33rem;
 }
+
 .background_oval_2{
   position: absolute;
   border-radius: 50%;
@@ -73,6 +84,7 @@
   right: -1.33rem;
   background-color: #40e0d0;
 }
+
 .background_oval_2_1{
   position: absolute;
   border-radius: 50%;
@@ -83,6 +95,7 @@
   background-color: #33ffff;
   opacity: 0.5;
 }
+
 .background_oval_3{
   position: absolute;
   border-radius: 50%;
@@ -93,6 +106,7 @@
   width: 23.33rem;
   border: 1px solid #66ffff;
 }
+
 .background_oval_3_1{
   position: absolute;
   border-radius: 50%;
@@ -103,6 +117,7 @@
   background: none;
   border: 1px solid #66ffff;
 }
+
 .background_oval_3_2{
   position: absolute;
   border-radius: 50%;
@@ -113,6 +128,7 @@
   background: none;
   border: 1px solid #66ffff;
 }
+
 .background_oval_3_3{
   position: absolute;
   border-radius: 50%;
@@ -123,6 +139,7 @@
   background: none;
   border: 1px solid #66ffff;
 }
+
 .background_oval_3_4{
   position: absolute;
   border-radius: 50%;
@@ -133,6 +150,7 @@
   background: none;
   border: 1px solid #66ffff;
 }
+
 .background_oval_3_5{
   position: absolute;
   border-radius: 50%;
@@ -143,6 +161,7 @@
   background: none;
   border: 1px solid #66ffff;
 }
+
 .background_oval_3_6{
   position: absolute;
   border-radius: 50%;
@@ -153,6 +172,7 @@
   background: none;
   border: 1px solid #66ffff;
 }
+
 .background_oval_3_7{
   position: absolute;
   border-radius: 50%;
@@ -163,6 +183,7 @@
   background: none;
   border: 1px solid #66ffff;
 }
+
 .background_oval_3_8{
   position: absolute;
   border-radius: 50%;
@@ -173,6 +194,7 @@
   background: none;
   border: 1px solid #66ffff;
 }
+
 .background_oval_3_9{
   position: absolute;
   border-radius: 50%;
@@ -183,6 +205,7 @@
   background: none;
   border: 1px solid #66ffff;
 }
+
 .background_oval_3_10{
   position: absolute;
   border-radius: 50%;
@@ -193,6 +216,7 @@
   background: none;
   border: 1px solid #66ffff;
 }
+
 .background_oval_3_11{
   position: absolute;
   border-radius: 50%;
@@ -203,6 +227,7 @@
   background: none;
   border: 1px solid #66ffff;
 }
+
 .background_oval_3_12{
   position: absolute;
   border-radius: 50%;
@@ -213,6 +238,7 @@
   background: none;
   border: 1px solid #66ffff;
 }
+
 .team_photo_wrapper{
   position: absolute;
   border-radius: 50%;
@@ -233,7 +259,9 @@
   left: 5px;
   background-color: white;
 }
+
 .team_photo img{
+  /* background-image: url(../../../images/logo1.jpg); */
   position: absolute;
   width: 9.6rem;
   right: 2px;
@@ -246,16 +274,19 @@
   padding-top: 16rem;
   border-bottom: 1px solid #808080;
 }
+
 .team_info_title{
   font-size: 1.2rem;
   font-weight: 600;
 }
+
 .team_info_subtitle{
   text-transform: uppercase;
   padding-bottom: 5px;
   font-weight: 200;
   color: #808080;
 }
+
 .team_info_description{
   overflow-y: auto;
   margin: 0.66rem 1.8rem;

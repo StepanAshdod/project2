@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./About.css";
+import "./About.css";
 import Einstein from '../../../images/AlbertEinstein1.jpg';
 import { CardsSection } from "./CardsSection.js";
 
