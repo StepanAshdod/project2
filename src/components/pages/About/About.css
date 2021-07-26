@@ -14,7 +14,7 @@
     display: flex;
     align-items: center;
     text-align: left;
-    border-bottom: 1px solid #ff3399;
+    border-bottom: 1px solid rgb(64, 224, 208);
     margin-top: 2rem;
     padding-bottom: 10px;
     height: 6vh;
@@ -71,3 +71,9 @@
 /* .EncourageBox img:hover{
     opacity: 0.2;
 } */
+@media (max-width: 475px) {
+    .about__title{
+        text-align: center;
+    }
+
+}

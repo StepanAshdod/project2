@@ -37,11 +37,16 @@
    min-height: 100px;
    /* margin-left: 25px; */
  }
- .LogoWrapper img {
-   width: 130px;
-   height: 65px;
- }
- .LogoText {
+ .LogoWrapper {
+  display: flex;
+  margin-right: 550px;
+  min-height: 100px;
+}
+.LogoWrapper img{
+  width: 140px;
+  height: 40px;
+}
+ /* .LogoText {
    display: block;
   font-size: 18px;
   margin-left: 6px;
@@ -54,4 +59,4 @@
  .Gaming{
    margin-top:-17px;
    border-top:2px solid #00ffff;
- }
+ } */

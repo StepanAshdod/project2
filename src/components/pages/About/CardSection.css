@@ -46,6 +46,7 @@
   color: rgb(148, 144, 144);
   margin-top: 2px;
   }
+  
   /* 
   .img.text{
       width: 100%;
@@ -104,7 +105,7 @@
       margin: 0 auto;
     }
   
-    @media (min-width: 768px) {
+    @media (max-width: 475px) {
       .container {
         max-width: 700px;
         margin: 0 auto;

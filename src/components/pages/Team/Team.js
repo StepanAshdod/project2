@@ -1,5 +1,6 @@
 import React from "react";
 import style from "./Team.css";
+import team_photo from '../../../images/Zuckerberg.jpg';
 
 export const Team = () => {
         const employees = [
@@ -30,7 +31,7 @@ export const Team = () => {
                         <div className={'background_oval_3_12'}></div>
                         <div className={'team_photo_wrapper'}>
                             <div className={'team_photo'}>
-                                
+                            <img src={team_photo} alt=""></img>
                             </div>
                         </div>
                         <div className={'team_info'}>
@@ -38,7 +39,11 @@ export const Team = () => {
                             <span className={'team_info_subtitle'}>{employee.position}</span>
                         </div>
                         <div className={'team_info_description'}>
-                            So how did the classical Latin become so incoherent? According to McClintock, a 15th century typesetter likely scrambled part of Cicero's De Finibus in order to provide placeholder text to mockup various fonts for a type specimen book. </div>
+                            So how did the classical Latin become so incoherent? 
+                            According to McClintock, l
+                            scrambled part of Cicero's in order to provide 
+                            placeholder text to mockup various fonts for a 
+                            type specimen book. </div>
                     </div>
                 </div>
             </div>

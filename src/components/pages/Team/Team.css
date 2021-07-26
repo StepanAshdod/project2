@@ -3,17 +3,17 @@
   background-position: center center;
   background-size: cover;
   margin-top: 25px;
-  height: 820px;
-   display: flex;
-   flex-direction: column;
-   padding-top: 6rem;
+  height: 810px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 6rem;
 }
 
 .team_header{
    display: flex;
    align-items: center;
    text-align: left;
-   border-bottom: 1px solid #ff3399;
+   border-bottom: 1px solid rgb(64, 224, 208);
    margin-top: 2rem;
    padding-bottom: 10px;
    height: 6vh;
@@ -41,17 +41,17 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 2.66rem -1rem 0 -1rem;
+  margin: 2rem 1rem 0 1rem;
 }
 .team_item{
-  width: 17rem;
+  width: 33rem;
   margin: 1rem 1rem;
+  margin-right: 30px;
 }
-
 .team_item_wrapper{
   overflow: hidden;
   position: relative;
-  height: 30rem;
+  height: 27rem;
   box-shadow: 0 0 4px #808080;
   border-radius: 0.66rem;
   background-color: #ffffff;
@@ -243,9 +243,9 @@
   position: absolute;
   border-radius: 50%;
   background-color: white;
-  width: 10.66rem;
+  /* width: 10.66rem; */
   height: 10.66rem;
-  left: 3.33rem;
+  left: 3.66rem;
   bottom: 47%;
 }
 .team_photo{
@@ -256,15 +256,15 @@
   width: 10rem;
   height: 10rem;
   bottom: 3%;
-  left: 5px;
+  /* left: 5px; */
   background-color: white;
 }
 
 .team_photo img{
-  /* background-image: url(../../../images/logo1.jpg); */
   position: absolute;
-  width: 9.6rem;
-  right: 2px;
+  width: 126%;
+  margin-top: 20px;
+  margin-left: -13px;
 }
 .team_info{
   display: flex;

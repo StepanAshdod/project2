@@ -1,6 +1,8 @@
 import React from "react";
 import "./Login.css";
-
+import FacebookIcon from "../../../images/facebook.png";
+import AppleIcon from "../../../images/apple.png";
+import GoogleIcon from "../../../images/google.png";
 export const Login = () => {
 
     return <React.Fragment>
@@ -41,14 +43,16 @@ export const Login = () => {
 
                             <div className={'login_right'}>
                                 <button className={'login_social_button'} >
+                                <img className={'icon_facebook'} src={FacebookIcon} alt=""/>
                                     <span className={'login_social_title'}>Continue with Facebook</span>
                                 </button>
-
-                                <button className={'login_social_button'} >                                    
+                                <button className={'login_social_button'} >   
+                                <img className={'icon_apple'} src={AppleIcon} alt=""/>                                 
                                     <span className={'login_social_title'}>Continue with Apple</span>
                                 </button>
 
-                                <button className={'login_social_button'} >                                   
+                                <button className={'login_social_button'} >   
+                                <img className={'icon_google'} src={GoogleIcon} alt=""/>                         
                                     <span className={'login_social_title'}>Continue with Google</span>
                                 </button>
 
